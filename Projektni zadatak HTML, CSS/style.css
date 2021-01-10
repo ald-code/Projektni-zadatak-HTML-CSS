@@ -1,0 +1,173 @@
+body, html {
+	font-family: 'Comfortaa', cursive;
+	font-family: 'Source Code Pro', monospace;
+	font-family: 'Spectral', serif;
+	margin: 0;
+	font-size: 16px;
+	/*background-color: rgb(18, 59, 136);
+	color: white;*/
+	background-color: rgb(60, 60, 80);
+	color: white;
+}
+header {
+	display: block;
+	width: 100%;
+	position: relative;
+}
+.banner {
+	background-image: url("img/Code_and_Text_Editors.png");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+nav {
+	text-align: center;
+	}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(63, 60, 245);
+}
+nav li {
+	float: none;
+	display: inline-block;
+}
+nav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+p {
+	margin: 1em;
+	line-height: 1.2em;
+	letter-spacing: 1px;
+	font-size: large;
+}
+main h1 {
+	text-align: center;
+}
+main h2 {
+	margin: 0.5em 0.7em;
+}
+main a {
+	color: white;
+	text-decoration: underline;
+}
+main a:hover {
+	color: #fffb0a;
+	text-decoration: underline;
+}
+hr {
+	margin: 1em;
+	border: 1px dotted white;
+	clear: both;
+}
+.novost img {
+	width: 17%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+.novost h2 {
+	margin: 0.5em 0.7em;
+	font-size: 1.5em;
+	color: white;
+	text-decoration: underline;
+}
+.novost hr {
+	margin: 1em;
+	border: 1px dotted white;
+	clear: both;
+}
+.novost date {
+	font-size: 90%;
+	font-style: italic;
+}
+#novosti_galerija figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: auto;
+	border: 1px solid white;
+}
+#novosti_galerija figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+#novosti_galerija img {
+	width: 250px;
+	height: 150px;
+}
+.galerija {
+	float: left;
+	position: relative;
+}
+.galerija figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 22%;
+	width: auto;
+	border: 1px transparent;
+}
+.galerija figcaption {
+	font-size: 100%;
+	height: 50px;
+	text-align: center;
+}
+.galerija img {
+	width: 400px;
+	height: 250px;
+	cursor: pointer;
+}
+video {
+	margin: 0 1em 0 1em;
+	float: right;
+	width: 40%;
+}
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: right;
+	width: auto;
+	border: 1px solid white;
+}
+figcaption {
+	font-size: 90%;
+}
+form {
+	text-align: center;
+}
+form input[type=text], input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-size: 95%;
+}
+form input[type=submit] {
+    display: block;
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 20%;
+	margin-left: 40%;
+}
+.poveznice {
+	text-align: center;
+}
+footer p {
+	text-align: center;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head> 
+        <link rel="stylesheet" href="style.css">
+        <title>Kontakt</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="opis trenutnog dokumenta"> 
+        <meta name="keywords" content="html, css">
+        <meta name="author" content="Aldin Kasumović">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="banner"></div>
+            <nav>
+                <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="novosti.html">Novosti</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="o_nama.html"> O nama</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Kontakt</h1>
+            <h2>Lokacija</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2785.8292968725627!2d16.071708251329774!3d45.714461279002215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47667f73031532db%3A0xd81ccdb4cfa066a1!2sVeleu%C4%8Dili%C5%A1te%20Velika%20Gorica!5e0!3m2!1sen!2shr!4v1610209195422!5m2!1sen!2shr" 
+            style="border:0; margin-left: 10px; width: 99%; height: 450px;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
+            
+            <h1> Kontakt forma</h1>
+            <form>
+               <p>Za više informacija upiši podatke i pošalji:</p>
+               <label for="ime">Ime *</label><br>
+               <input type="text" id="ime" name="ime" placeholder="Ime" required><br>
+
+               <label for="prezime">Prezime *</label><br>
+               <input type="text" id="prezime" name="prezime" placeholder="Prezime" required><br>
+
+               <label for="email">e-mail *</label><br>
+               <input type="email" id="email" name="email" placeholder="e-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"><br/>
+
+               <label for="drzava">Država *</label><br>
+               <select id="drzava" name="drzava">
+                    <option value="">Odaberi:</option>
+                    <option value="HR">Hrvatska</option>
+                    <option value="AU">Austrija</option>
+                    <option value="BIH">Bosna i Hercegovina</option>
+                    <option value="CG">Crna Gora</option>
+                    <option value="IT">Italija</option>
+                    <option value="DE">Njemačka</option>
+                    <option value="SRB">Srbija</option>
+                    <option value="SLO">Slovenija</option>
+                    <option value="ostalo">Neka druga...</option>
+                </select><br>
+                <label for="tekst">Tekst</label><br>
+                <textarea id="tekst" name="tekst" placeholder="Pošalji upit, komentar, sugestiju..."></textarea>
+                <input type="submit" id=submit name="pošalji" value="Pošalji"><br>
+           </form>
+
+           <p class="poveznice">Poveznice:<br>
+            <a href="https://www.facebook.com/veleucilistevg" target="_blank"><img src="img/fb_icon.png" style="padding: 0px; width: 40px;" alt="Facebook" title="Facebook"></a>
+            <a href="https://www.linkedin.com/school/universityofappliedsciencesvelikagorica/" target="_blank"><img src="img/LinkedIn-Logos/LI-In-Bug.png" alt="Linkedin" title="Linkedin" style="width:40px; margin-top:0.4em"></a>
+           </p>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2020 Aldin Kasumović <a href="https://github.com/ald-code?tab=repositories" target="_blank"><img src="img/GitHub-Mark-Light-32px.png" title="Github" alt="Github"></a></p>
+        </footer>
+    </body>
+</html>
